@@ -64,7 +64,7 @@ def telethon_session():
             print("Successfully generated Telethon Session String.")
             ult = calls.send_message(
                 "me",
-                f"💔👊  💈🌟 тẸŁ𝑒𝕥ｈⓄή ⓢ𝐄sร𝕚σ𝓷 รⓣ𝓡Ｉ𝓃Ğ 🌟💈  🔥🔥\n\n`{calls.session.save()}`\n\n**♞💀  ✨ ℂʳᗴａ丅ⒺĐ 𝔹Ƴ:- @Tashri2342 & Jooin @{Chatbt_config}& @{chatgp_config} ✨  ☯💗",
+                f"💔👊  💈🌟 тẸŁ𝑒𝕥ｈⓄή ⓢ𝐄sร𝕚σ𝓷 รⓣ𝓡Ｉ𝓃Ğ 🌟💈  🔥🔥\n\n`{calls.session.save()}`\n\n**♞💀  ✨ ℂʳᗴａ丅ⒺĐ 𝔹Ƴ:- @Tashri2342 & Join @{Chatbt_config}& @{chatgp_config} ✨  ☯💗",
             )
             print(
                 "\nCheck the Telegram user Saved Message to take the Session String."
@@ -104,7 +104,7 @@ def pyro_session():
         ss = pyro.export_session_string()
         pyro.send_message(
             "me",
-            f"✨ 💈 𝐩ץʳØ𝓖𝓡ᵃ𝕄 ร𝕖ᔕŜ𝓲๏Ň 𝓼𝓉𝔯𝐢𝕟Ǥ 💈 ✨\n\n`{ss}`\n\n♞💀  ✨ ℂʳᗴａ丅ⒺĐ𝔹Ƴ:- @Tashri2342 & Jooin @{Chatbt_config}& @{chatgp_config}✨  ☯💗",
+            f"✨ 💈 𝐩ץʳØ𝓖𝓡ᵃ𝕄 ร𝕖ᔕŜ𝓲๏Ň 𝓼𝓉𝔯𝐢𝕟Ǥ 💈 ✨\n\n`{ss}`\n\n♞💀  ✨ ℂʳᗴａ丅ⒺĐ𝔹Ƴ:- @Tashri2342 & Join @{Chatbt_config}& @{chatgp_config}✨  ☯💗",
         )
         print("\nCheck the Telegram user Saved Message to take the Session String.")
         exit(0)
